@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 .logo a {
-  color: #0c2f5a;
+  color: #ff0000;
   font-size: larger;
   font-weight: 900;
 }
@@ -35,9 +35,80 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 26px 18px;
+  margin-bottom: 100px;
   position: relative;
   background-color: rgb(255, 255, 255);
 }
+
+.navMenu {
+  width: 33.33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+/* .navMenu a {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(32, 19, 57);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.navMenu a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: all 0.8s;
+} */
+
+
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #8c62f5;
+}
+
+.button-24:active {
+  /* background-color: greenyellow; */
+  opacity: .5;
+}
+
+
 .marquee-text{
   font-size: 29px;
   font-weight: 600;
@@ -205,13 +276,14 @@ text-align: end;
 }
 .products-heading{
   text-align: center;
-  margin: 40px 0px;
+  margin: 100px 0px;
  color: #324d67;
 
 }
 .products-heading h2{
   font-size: 40px;
   font-weight: 800;
+  color: #f02d34;
 }
 .products-heading p{
   font-size: 16px;

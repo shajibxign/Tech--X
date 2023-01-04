@@ -11,8 +11,9 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Toaster />
         <Component {...pageProps} />
+        {/* <h1>Hlw</h1> */}
       </Layout>
-    // </StateContext>
+    </StateContext>
   )
 }
 
