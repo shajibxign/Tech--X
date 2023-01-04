@@ -34,7 +34,7 @@ export default {
       { 
         name: 'details',
         title: 'Details',
-        type: 'string',
+        type: 'text',
       }
     ]
   }
